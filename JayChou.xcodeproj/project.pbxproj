@@ -12,7 +12,7 @@
 		D682B6B128C3A9A200C76D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D682B6AF28C3A9A200C76D29 /* Main.storyboard */; };
 		D682B6B328C3A9A500C76D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D682B6B228C3A9A500C76D29 /* Assets.xcassets */; };
 		D682B6B628C3A9A500C76D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D682B6B428C3A9A500C76D29 /* LaunchScreen.storyboard */; };
-		D682B6CB28C3AA8A00C76D29 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B6BD28C3AA8A00C76D29 /* Color+Extension.swift */; };
+		D682B6CB28C3AA8A00C76D29 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B6BD28C3AA8A00C76D29 /* UIColor+Extension.swift */; };
 		D682B6CC28C3AA8A00C76D29 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B6C028C3AA8A00C76D29 /* LoginViewModel.swift */; };
 		D682B6CD28C3AA8A00C76D29 /* Album+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B6C228C3AA8A00C76D29 /* Album+Enum.swift */; };
 		D682B6CE28C3AA8A00C76D29 /* SliderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B6C428C3AA8A00C76D29 /* SliderImage.swift */; };
@@ -31,7 +31,7 @@
 		D682B6B228C3A9A500C76D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D682B6B528C3A9A500C76D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D682B6B728C3A9A500C76D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D682B6BD28C3AA8A00C76D29 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D682B6BD28C3AA8A00C76D29 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D682B6C028C3AA8A00C76D29 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D682B6C228C3AA8A00C76D29 /* Album+Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Album+Enum.swift"; sourceTree = "<group>"; };
 		D682B6C428C3AA8A00C76D29 /* SliderImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderImage.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				D682B6A928C3A9A200C76D29 /* AppDelegate.swift */,
 				D682B6AB28C3A9A200C76D29 /* SceneDelegate.swift */,
 				D682B6AF28C3A9A200C76D29 /* Main.storyboard */,
-				D682B6BD28C3AA8A00C76D29 /* Color+Extension.swift */,
+				D682B6BD28C3AA8A00C76D29 /* UIColor+Extension.swift */,
 				D682B6BE28C3AA8A00C76D29 /* 登入頁 */,
 				D682B6B228C3A9A500C76D29 /* Assets.xcassets */,
 				D682B6B428C3A9A500C76D29 /* LaunchScreen.storyboard */,
@@ -210,7 +210,7 @@
 				D682B6CD28C3AA8A00C76D29 /* Album+Enum.swift in Sources */,
 				D682B6CE28C3AA8A00C76D29 /* SliderImage.swift in Sources */,
 				D682B6AA28C3A9A200C76D29 /* AppDelegate.swift in Sources */,
-				D682B6CB28C3AA8A00C76D29 /* Color+Extension.swift in Sources */,
+				D682B6CB28C3AA8A00C76D29 /* UIColor+Extension.swift in Sources */,
 				D682B6D028C3AA8A00C76D29 /* SliderCell.swift in Sources */,
 				D682B6AC28C3A9A200C76D29 /* SceneDelegate.swift in Sources */,
 			);
