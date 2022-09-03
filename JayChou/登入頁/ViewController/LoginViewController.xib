@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="JayChouMusicApp" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="JayChou" customModuleProvider="target">
             <connections>
                 <outlet property="shadowView" destination="OB8-0y-Njs" id="wGB-7L-h6a"/>
                 <outlet property="sliderImageCollection" destination="WQF-np-mp8" id="KuD-H9-9eb"/>
@@ -38,7 +38,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OB8-0y-Njs">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
-                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Io-AL-12g" customClass="LoginView" customModule="JayChouMusicApp" customModuleProvider="target">
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Io-AL-12g" customClass="LoginView" customModule="JayChou" customModuleProvider="target">
                             <rect key="frame" x="20" y="434" width="374" height="292"/>
                             <subviews>
                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0h-SC-Ec6">
@@ -111,7 +111,7 @@
                                                                     <constraint firstAttribute="height" constant="2" id="N3Z-Rn-cBf"/>
                                                                 </constraints>
                                                             </view>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ma-H2-wGC">
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ma-H2-wGC">
                                                                 <rect key="frame" x="162" y="66" width="50" height="50"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="50" id="8ha-W6-uNq"/>
@@ -181,7 +181,7 @@
     <resources>
         <image name="FB_Login" width="30" height="30"/>
         <image name="Google_Login" width="30" height="30"/>
-        <image name="JayChou" width="300" height="300"/>
+        <image name="JayChou" width="80" height="80"/>
         <image name="Line_Login" width="31" height="30"/>
         <namedColor name="ThemeBlack">
             <color red="0.10199999809265137" green="0.11299999803304672" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

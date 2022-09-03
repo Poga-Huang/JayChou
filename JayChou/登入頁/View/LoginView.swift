@@ -17,6 +17,7 @@ class LoginView: UIView {
     
     override func layoutSubviews() {
         self.layer.cornerRadius = 10
+        noLoginBtn.layer.cornerRadius = 10
     }
     
     
